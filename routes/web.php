@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::view('/dashboard', 'layout.dashboard');
+Route::view('/paketmaterial', 'layout.master_paketmaterial');

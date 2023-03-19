@@ -49,138 +49,45 @@
                         <span>Dashboard</span>
                     </a>
                 </li>
-                <li class="sidebar-item  has-sub @yield('master')">
-                    <a href="#" class='sidebar-link'>
+                <li class="sidebar-item has-sub @yield('masteruser')">
+                    <a href="" class='sidebar-link'>
                         <i class="bi bi-files-alt"></i>
-                        <span>Master</span>
+                        <span>Master User</span>
                     </a>
                     <ul class="submenu ">
                         <li class="submenu-item ">
-                            <a href="/paketmaterial">Paket Material</a>
+                            <a href="/masteruser-web">Web</a>
                         </li>
                         <li class="submenu-item ">
-                            <a href="component-alert.html">Upload Material</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="component-alert.html">Cost Material</a>
+                            <a href="/masteruser-mbl">Mobile</a>
                         </li>
                     </ul>
                 </li>
                 <li class="sidebar-item  has-sub">
                     <a href="#" class='sidebar-link'>
                         <i class="bi bi-arrow-left-right"></i>
-                        <span>Permintaan</span>
+                        <span>Monitoring</span>
                     </a>
                     <ul class="submenu ">
                         <li class="submenu-item ">
-                            <a href="component-alert.html">Monitoring & Permintaan</a>
+                            <a href="component-alert.html">Lap Data</a>
                         </li>
                         <li class="submenu-item ">
-                            <a href="component-alert.html">Permintaan dr Gudang lain</a>
+                            <a href="component-alert.html">Proses Klaim Garansi</a>
                         </li>
                     </ul>
                 </li>
-
-                <li class="sidebar-item  has-sub">
+                <li class="sidebar-item">
                     <a href="#" class='sidebar-link'>
                         <i class="bi bi-arrow-up-square"></i>
-                        <span>Pengiriman</span>
+                        <span>Pengiriman Surat</span>
                     </a>
-                    <ul class="submenu ">
-                        <li class="submenu-item ">
-                            <a href="component-alert.html">Monitoring & Pengiriman</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="component-alert.html">Pengiriman Material Ex Bkr</a>
-                        </li>
-                    </ul>
                 </li>
-                <li class="sidebar-item  has-sub">
+                <li class="sidebar-item">
                     <a href="#" class='sidebar-link'>
                         <i class="bi bi-cloud-download"></i>
-                        <span>Penerimaan</span>
+                        <span>Penerimaan Surat</span>
                     </a>
-                    <ul class="submenu ">
-                        <li class="submenu-item ">
-                            <a href="component-alert.html">Penerimaan Material</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="sidebar-item  has-sub">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-arrows-angle-expand"></i>
-                        <span>Pemakaian</span>
-                    </a>
-                    <ul class="submenu ">
-                        <li class="submenu-item ">
-                            <a href="component-alert.html">Monitoring Permohonan</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="component-alert.html">Monitoring Reservasi</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="component-alert.html">Monitoring Pemakaian</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="sidebar-item  has-sub">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-arrow-repeat"></i>
-                        <span>Pengembalian</span>
-                    </a>
-                    <ul class="submenu ">
-                        <li class="submenu-item ">
-                            <a href="layout-default.html">Default Layout</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="layout-vertical-1-column.html">1 Column</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="layout-vertical-navbar.html">Vertical Navbar</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="layout-rtl.html">RTL Layout</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="layout-horizontal.html">Horizontal Menu</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="sidebar-item  has-sub">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-grid-1x2"></i>
-                        <span>Manajemen Stock</span>
-                    </a>
-                    <ul class="submenu ">
-                        <li class="submenu-item ">
-                            <a href="component-alert.html">Monitoring Stock</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="component-alert.html">Mutasi Material</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="component-alert.html">Pengaturan Stock</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="component-alert.html">Monitoring Stock Ex Bkr</a>
-                        </li>
-
-                    </ul>
-                </li>
-
-                <li class="sidebar-item  has-sub">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-person-badge"></i>
-                        <span>EIS</span>
-                    </a>
-                    <ul class="submenu ">
-                        <li class="submenu-item ">
-                            <a href="layout-default.html">Perkembangan Stock</a>
-                        </li>
-                        <li class="submenu-item ">
-                            <a href="layout-vertical-1-column.html">Transaksi Material</a>
-                        </li>
-                    </ul>
                 </li>
             </ul>
         </div>

@@ -18,4 +18,5 @@ Route::get('/', function () {
 });
 
 Route::view('/dashboard', 'layout.dashboard');
-Route::view('/paketmaterial', 'layout.master_paketmaterial');
+Route::view('/masteruser-web', 'layout.masteruser_web');
+Route::view('/masteruser-mbl', 'layout.masteruser_mbl');

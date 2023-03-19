@@ -1,101 +1,16 @@
 @extends('frontend.head')
 @section('title')
-    Paket Material Page
+    Master User Mobile Page
 @endsection
 @section('pageheading')
-    Paket Material
+    Master User Mobile
 @endsection
-@section('master')
+@section('masteruser')
     active
 @endsection
 
 @section('konten')
     <div class="page-content">
-        <div class="card">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-6 mb-6">
-                        <div class="form-group row align-items-center">
-                            <div class="col-lg-3 col-3">
-                                <label class="col-form-label">
-                                    <h6>Gudang Induk</h6>
-                                </label>
-                            </div>
-                            <div class="col-lg-9 col-9">
-                                <fieldset class="form-group">
-                                    <select class="form-select" id="basicSelect">
-                                        <option>IT</option>
-                                        <option>Blade Runner</option>
-                                        <option>Thor Ragnarok</option>
-                                    </select>
-                                </fieldset>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-6">
-                        <div class="form-group row align-items-center">
-                            <div class="col-lg-2 col-2">
-                                <label class="col-form-label">
-                                    <h6>Tarif</h6>
-                                </label>
-                            </div>
-                            <div class="col-lg-9 col-9">
-                                <fieldset class="form-group">
-                                    <select class="form-select" id="basicSelect">
-                                        <option>IT</option>
-                                        <option>Blade Runner</option>
-                                        <option>Thor Ragnarok</option>
-                                    </select>
-                                </fieldset>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 mb-6">
-                        <div class="form-group row align-items-center">
-                            <div class="col-lg-3 col-3">
-                                <label class="col-form-label">
-                                    <h6>Jenis Transaksi</h6>
-                                </label>
-                            </div>
-                            <div class="col-lg-9 col-9">
-                                <fieldset class="form-group">
-                                    <select class="form-select" id="basicSelect">
-                                        <option>IT</option>
-                                        <option>Blade Runner</option>
-                                        <option>Thor Ragnarok</option>
-                                    </select>
-                                </fieldset>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-6">
-                        <div class="form-group row align-items-center">
-                            <div class="col-lg-2 col-2">
-                                <label class="col-form-label">
-                                    <h6>Daya</h6>
-                                </label>
-                            </div>
-                            <div class="col-lg-9 col-9">
-                                <fieldset class="form-group">
-                                    <select class="form-select" id="basicSelect">
-                                        <option>IT</option>
-                                        <option>Blade Runner</option>
-                                        <option>Thor Ragnarok</option>
-                                    </select>
-                                </fieldset>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="d-flex justify-content-end">
-                        <a href="#" class="btn icon btn-primary"><i class="bi bi-search"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="card">
             <div class="card-body">
                 <div class="row">
@@ -108,71 +23,27 @@
                     <table class="table table-striped mb-0">
                         <thead>
                             <tr>
-                                <th>Kode Paket</th>
-                                <th>Jenis Transaksi</th>
-                                <th>Gudang Induk</th>
-                                <th>Daya</th>
-                                <th>Tarif</th>
-                                <th>Paket Aktif</th>
+                                <th>Kode User</th>
+                                <th>Nama User</th>
+                                <th>Unit Induk</th>
+                                <th>UP3</th>
+                                <th>ULP</th>
+                                <th>EMEI</th>
+                                <th>Username</th>
+                                <th>Password</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>641</td>
-                                <td>Perubahan Daya</td>
-                                <td>PLN Area Surabaya Selatan</td>
-                                <td>1300</td>
-                                <td>B1T</td>
                                 <td>1</td>
-                                <td>
-                                    <div class="buttons">
-                                        <a href="#" class="btn icon btn-warning" data-bs-toggle="modal"
-                                            data-bs-target="#editModal"><i class="bi bi-pencil-fill"></i></a>
-                                        <a href="#" class="btn icon btn-danger" data-bs-toggle="modal"
-                                        data-bs-target="#hapusModal"><i class="bi bi-trash-fill"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>631</td>
-                                <td>Pasang Baru</td>
-                                <td>PLN Area Surabaya Selatan</td>
-                                <td>900</td>
-                                <td>B1T</td>
-                                <td>1</td>
-                                <td>
-                                    <div class="buttons">
-                                        <a href="#" class="btn icon btn-warning" data-bs-toggle="modal"
-                                            data-bs-target="#editModal"><i class="bi bi-pencil-fill"></i></a>
-                                        <a href="#" class="btn icon btn-danger" data-bs-toggle="modal"
-                                        data-bs-target="#hapusModal"><i class="bi bi-trash-fill"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>632</td>
-                                <td>Pasang Baru</td>
-                                <td>PLN Area Surabaya Selatan</td>
-                                <td>1300</td>
-                                <td>B1T</td>
-                                <td>1</td>
-                                <td>
-                                    <div class="buttons">
-                                        <a href="#" class="btn icon btn-warning" data-bs-toggle="modal"
-                                            data-bs-target="#editModal"><i class="bi bi-pencil-fill"></i></a>
-                                        <a href="#" class="btn icon btn-danger" data-bs-toggle="modal"
-                                        data-bs-target="#hapusModal"><i class="bi bi-trash-fill"></i></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>648</td>
-                                <td>Geser Tiang TM</td>
-                                <td>PLN Area Surabaya Selatan</td>
-                                <td>6600</td>
-                                <td>B2T</td>
-                                <td>1</td>
+                                <td>Indra</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>admin</td>
+                                <td>12345678</td>
                                 <td>
                                     <div class="buttons">
                                         <a href="#" class="btn icon btn-warning" data-bs-toggle="modal"
@@ -196,7 +67,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="tambahModalTitle">
-                            Tambah Paket Material
+                            Tambah Master User
                         </h5>
                         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"

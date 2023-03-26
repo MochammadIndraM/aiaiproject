@@ -116,9 +116,9 @@
                             <tr>
                                 <th>No Berita Acara</th>
                                 <th>No Surat</th>
-                                <th>Disetujui Manager ULP</th>
+                                <th>Disetujui MULP</th>
                                 <th>Diterima Digudang</th>
-                                <th>Disetujui Manager UP3</th>
+                                <th>Disetujui MUP3</th>
                                 <th>Verfikasi Pihak Pabrik</th>
                                 <th>Surat Balasan</th>
                                 <th>Proses Packing</th>
@@ -127,48 +127,48 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>00012111270323</td>
+                                <td>000127032023</td>
+                                <td>Disetujui</td>
+                                <td>Diterima</td>
+                                <td>Disetujui</td>
+                                <td>Disetujui</td>
+                                <td>Diterima</td>
+                                <td>Proses</td>
+                                <td>Proses</td>
                             </tr>
                             <tr>
-                                <td>2</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>00022111270323</td>
+                                <td>000127032023</td>
+                                <td>Tidak</td>
+                                <td>Belum Diterima</td>
+                                <td>Tidak</td>
+                                <td>Belum Disetujui</td>
+                                <td>Menunggu</td>
+                                <td>Selesai</td>
+                                <td>Sudah Kirim</td>
                             </tr>
                             <tr>
-                                <td>3</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>00032111270323</td>
+                                <td>000127032023</td>
+                                <td>Disetujui</td>
+                                <td>Diterima</td>
+                                <td>Disetujui</td>
+                                <td>Disetujui</td>
+                                <td>Diterima</td>
+                                <td>Proses</td>
+                                <td>Proses</td>
                             </tr>
                             <tr>
-                                <td>4</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>00022111270323</td>
+                                <td>000127032023</td>
+                                <td>Tidak</td>
+                                <td>Belum Diterima</td>
+                                <td>Tidak</td>
+                                <td>Belum Disetujui</td>
+                                <td>Menunggu</td>
+                                <td>Selesai</td>
+                                <td>Sudah Kirim</td>
                             </tr>
                         </tbody>
                     </table>

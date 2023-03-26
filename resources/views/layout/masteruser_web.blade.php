@@ -28,7 +28,6 @@
                                 <th>Unit Induk</th>
                                 <th>UP3</th>
                                 <th>ULP</th>
-                                <th>EMEI</th>
                                 <th>Username</th>
                                 <th>Password</th>
                                 <th>Action</th>

@@ -63,7 +63,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="sidebar-item  has-sub">
+                <li class="sidebar-item  has-sub @yield('monitoring')">
                     <a href="#" class='sidebar-link'>
                         <i class="bi bi-arrow-left-right"></i>
                         <span>Monitoring</span>
@@ -73,7 +73,7 @@
                             <a href="component-alert.html">Lap Data</a>
                         </li>
                         <li class="submenu-item ">
-                            <a href="component-alert.html">Proses Klaim Garansi</a>
+                            <a href="/proses-klaim-garansi">Proses Klaim Garansi</a>
                         </li>
                     </ul>
                 </li>

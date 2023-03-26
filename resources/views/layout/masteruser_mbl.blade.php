@@ -14,6 +14,9 @@
         <div class="card">
             <div class="card-body">
                 <div class="row">
+                    <div class="d-flex justify-content-start">
+                        <div class="dataTable-search"><input class="dataTable-input" placeholder="Search..." type="text"></div>
+                    </div>
                     <div class="d-flex justify-content-end">
                         <a href="#" class="btn icon btn-success" data-bs-toggle="modal"
                             data-bs-target="#tambahModal"><i class="bi bi-plus-lg"></i></a>
@@ -28,7 +31,7 @@
                                 <th>Unit Induk</th>
                                 <th>UP3</th>
                                 <th>ULP</th>
-                                <th>EMEI</th>
+                                <th>IMEI</th>
                                 <th>Username</th>
                                 <th>Password</th>
                                 <th>Action</th>

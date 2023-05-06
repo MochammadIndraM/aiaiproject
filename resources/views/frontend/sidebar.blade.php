@@ -70,7 +70,7 @@
                     </a>
                     <ul class="submenu ">
                         <li class="submenu-item ">
-                            <a href="component-alert.html">Lap Data</a>
+                            <a href="/lap-data">Lap Data</a>
                         </li>
                         <li class="submenu-item ">
                             <a href="/proses-klaim-garansi">Proses Klaim Garansi</a>
